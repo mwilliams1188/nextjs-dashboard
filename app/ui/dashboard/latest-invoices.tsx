@@ -31,6 +31,7 @@ export default async function LatestInvoices() {
                   <Image
                     src={invoice.image_url}
                     className="mr-4 rounded-full"
+                    alt="Invoice"
                     width={32}
                     height={32}
                   />
